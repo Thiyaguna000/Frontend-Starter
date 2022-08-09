@@ -7,7 +7,11 @@ import Login from "./screens/Login/Login";
 function App() {
   return (
       <div className="App">
-        HI
+        <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
     </div>
    
   );
