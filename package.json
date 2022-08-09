@@ -7,7 +7,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "json-server ./generator.js --port 8080 --delay 500",
-    "serve": "react-scripts start"
+    "serve": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "faker": "^5.4.0",
