@@ -4,6 +4,8 @@
   "homepage": "https://thiyaguna000.github.io/Frontend-Starter/",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "json-server ./generator.js --port 8080 --delay 500",
     "serve": "react-scripts start"
   },
