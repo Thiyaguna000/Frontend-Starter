@@ -1,7 +1,7 @@
 {
   "name": "frontend-json-server-starter",
   "version": "1.0.0",
-  "homepage": "https://thiyaguna000.github.io/",
+  "homepage": "https://thiyaguna000.github.io/Frontend-Starter/",
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
