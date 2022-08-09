@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gitdeploy -d build",
     "start": "json-server ./generator.js --port 8080 --delay 500",
     "serve": "react-scripts start",
     "build": "react-scripts build"
